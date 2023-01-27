@@ -163,14 +163,18 @@
     <!-- <script src="/static/three.min.js"></script> -->
     <div id="container"></div>
 
-    <p id="scan-status" style="margin-top: 220px; text-align: center;">Scanning...</p>
+    <p id="scan-status" style="margin-top: 220px; text-align: center;"></p>
     <div id="group">
         <button id="scan">Scan</button>
         <button id="capture" disabled>Capture</button>
         <button id="solve" disabled>Solve</button>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="/static/js/rubik_app.js"></script>
+    <script type="module" src="/static/js/main.js"></script>
+    <script type="module" src="/static/js/method/capture.js"></script>
+    <script type="module" src="/static/js/method/scan.js"></script>
+    <script type="module" src="/static/js/method/solve.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.3.js"
         integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="/static/js/style.js"></script>
